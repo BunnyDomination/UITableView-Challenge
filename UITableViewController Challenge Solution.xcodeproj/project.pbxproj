@@ -14,13 +14,13 @@
 		5DE0580B18F9C1190034D14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0580A18F9C1190034D14A /* main.m */; };
 		5DE0580F18F9C1190034D14A /* ChallengeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0580E18F9C1190034D14A /* ChallengeAppDelegate.m */; };
 		5DE0581218F9C1190034D14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0581018F9C1190034D14A /* Main.storyboard */; };
-		5DE0581518F9C1190034D14A /* ChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0581418F9C1190034D14A /* ChallengeViewController.m */; };
 		5DE0581718F9C1190034D14A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0581618F9C1190034D14A /* Images.xcassets */; };
 		5DE0581E18F9C11A0034D14A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE0581D18F9C11A0034D14A /* XCTest.framework */; };
 		5DE0581F18F9C11A0034D14A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE057FE18F9C1190034D14A /* Foundation.framework */; };
 		5DE0582018F9C11A0034D14A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE0580218F9C1190034D14A /* UIKit.framework */; };
 		5DE0582818F9C11A0034D14A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0582618F9C11A0034D14A /* InfoPlist.strings */; };
 		5DE0582A18F9C11A0034D14A /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0582918F9C11A0034D14A /* UITableViewController_Challenge_SolutionTests.m */; };
+		5DE0583518F9F12F0034D14A /* MyChallengeSolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0583418F9F12F0034D14A /* MyChallengeSolutionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		5DE0580D18F9C1190034D14A /* ChallengeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChallengeAppDelegate.h; sourceTree = "<group>"; };
 		5DE0580E18F9C1190034D14A /* ChallengeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeAppDelegate.m; sourceTree = "<group>"; };
 		5DE0581118F9C1190034D14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5DE0581318F9C1190034D14A /* ChallengeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChallengeViewController.h; sourceTree = "<group>"; };
-		5DE0581418F9C1190034D14A /* ChallengeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeViewController.m; sourceTree = "<group>"; };
 		5DE0581618F9C1190034D14A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5DE0581C18F9C11A0034D14A /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE0581D18F9C11A0034D14A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5DE0582518F9C11A0034D14A /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		5DE0582718F9C11A0034D14A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DE0582918F9C11A0034D14A /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		5DE0583318F9F12F0034D14A /* MyChallengeSolutionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyChallengeSolutionViewController.h; path = ../MyChallengeSolutionViewController.h; sourceTree = "<group>"; };
+		5DE0583418F9F12F0034D14A /* MyChallengeSolutionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyChallengeSolutionViewController.m; path = ../MyChallengeSolutionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 		5DE0580418F9C1190034D14A /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				5DE0583318F9F12F0034D14A /* MyChallengeSolutionViewController.h */,
+				5DE0583418F9F12F0034D14A /* MyChallengeSolutionViewController.m */,
 				5DE0580D18F9C1190034D14A /* ChallengeAppDelegate.h */,
 				5DE0580E18F9C1190034D14A /* ChallengeAppDelegate.m */,
 				5DE0581018F9C1190034D14A /* Main.storyboard */,
-				5DE0581318F9C1190034D14A /* ChallengeViewController.h */,
-				5DE0581418F9C1190034D14A /* ChallengeViewController.m */,
 				5DE0581618F9C1190034D14A /* Images.xcassets */,
 				5DE0580518F9C1190034D14A /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE0581518F9C1190034D14A /* ChallengeViewController.m in Sources */,
 				5DE0580F18F9C1190034D14A /* ChallengeAppDelegate.m in Sources */,
 				5DE0580B18F9C1190034D14A /* main.m in Sources */,
+				5DE0583518F9F12F0034D14A /* MyChallengeSolutionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
